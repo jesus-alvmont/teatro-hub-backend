@@ -1,7 +1,13 @@
 const cors = require('cors');
 
 const corsOptions = {
-  origin: ['http://localhost:3000', 'http://localhost:3001', 'https://vercel.com'],
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:5173',
+    'http://localhost:5174',
+    'https://vercel.com',
+    'https://*.vercel.app'
+  ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
