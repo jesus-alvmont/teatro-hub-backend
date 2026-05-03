@@ -5,6 +5,7 @@ const corsOptions = {
     'http://localhost:3000',
     'http://localhost:5173',
     'http://localhost:5174',
+    'https://teatro-hub-frontend.vercel.app',
     'https://vercel.com',
     'https://*.vercel.app'
   ],
